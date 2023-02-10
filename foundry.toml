@@ -1,0 +1,10 @@
+[profile.default]
+src = 'contracts'
+#out = 'artifacts/contracts'
+#libs = ['node_modules']
+
+remappings = [
+  "ds/=lib/ds-test/src/",
+  "@std=lib/forge-std/src/",
+  "@openzeppelin=lib/openzeppelin-contracts/contracts/",
+]
